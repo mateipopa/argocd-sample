@@ -2,7 +2,6 @@ kind: Secret
 apiVersion: v1
 metadata:
   name: example-secret
-  annotations:
 type: Opaque
 data:
   ARGOTEST: <path:argocd/data/secret#ARGOTEST>
