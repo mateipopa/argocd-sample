@@ -4,4 +4,4 @@ metadata:
   name: example-secret
 type: Opaque
 stringData:
-  ARGOTEST: <path:argocd/data/secret#ARGOTEST>
+  KEYCLOAK_USER: <path:secret-clx103x100x01/data/keycloak#KEYCLOAK_USER>
